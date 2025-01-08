@@ -1,0 +1,133 @@
+.total-conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:2.5rem;
+}
+
+.yes{
+  border: solid 1px #000;
+  border-radius: 2rem;
+  padding: .8rem;
+  font-size: .9rem;
+  background-color: #4446;
+  color: #ddd;
+  width: 7rem;
+}
+
+.yes .span2{
+  display: none;
+}
+
+
+.yes:hover{
+  border-color: #d208;
+  background-color: #d203;
+  color: #eee;
+  cursor: pointer;
+}
+
+.yes:hover .span1{
+  display: none;
+}
+
+.yes:hover .span2{
+  display: block;
+}
+
+.no{
+  border: solid 1px #000;
+  border-radius: 2rem;
+  padding: .8rem;
+  font-size: .9rem;
+  background-color: #4446;
+  color: #ddd;
+  width: 7rem;
+}
+
+.no .span2{
+  display: none;
+}
+
+.no:hover{
+  border: none;
+  background-color: #07a;
+  color: #eee;
+  cursor: pointer;
+}
+
+.user-conteiner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+img{
+  border-radius: 50%;
+  max-width: 60px;
+}
+
+.names-conteiner{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color:#eee;
+}
+
+.names-conteiner a{
+  color:#eee8;
+  text-decoration: none;
+}
+
+.names-conteiner a:hover{
+  color:#eee8;
+  text-decoration: underline;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.inputs input{
+  padding: 1rem;
+  background-color: #3339;
+  border: 1px solid #aaa;
+  color:#ddd;
+  font-size: .9rem;
+  border-radius: 5rem;
+}
+
+.inputs input:hover, .inputs button:hover{
+  background-color: #5559;
+  color: #eee;
+  border: 1px solid transparent;
+}
+
+.inputs button{
+  border: 1px solid #aaa;
+  background-color: #3339;
+  padding: 1rem;
+  border-radius: 50%;
+  width: fit-content;
+  height: fit-content;
+}
+
+.inputs input:focus, .inputs button:focus{
+  border: 1px solid transparent;
+  outline: none;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  gap: 9rem
+}
